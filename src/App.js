@@ -12,7 +12,7 @@ export class App extends Component {
   render() {
     return (
       <div><Navbar/>
-        <News/>
+        <News pageSize ={5} />
         </div>
     )
   }
